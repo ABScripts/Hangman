@@ -1,0 +1,45 @@
+body{
+	font-size: 40px;
+	text-align: center;
+	background-image: url(../img/background.jpg);
+	}
+button{
+	width: 64px;height: 64px;
+	 box-shadow: 0 0 10px black;
+	 font-size: 36px;
+	background-image: url(../img/aloneButton.jpg);
+	transition: .5s;
+}
+.space{
+	background-image: url(../img/space.jpg);
+	width: 640px;
+}
+#inscription{
+	font-size: 48px;
+	margin-bottom: 12px;
+	text-shadow: 0 0 10px black;
+}
+.image{
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/button.gif);
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid black;
+}
+.image:hover, button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.dragons {background-position: 0 0;}
+.dragons:hover{background-position: -64px 0;}
+.dragons:active{background-position: -128px 0;}
+.animals{background-position: 0 -128px;}
+.animals:hover{background-position: -64px -128px;}
+.animals:active{background-position: -128px -128px;}
+.cars{background-position: 0 -192px;}
+.cars:hover{background-position: -64px -192px;}
+.cars:active{background-position: -128px -192px;}
+.fruits{background-position: 0 -64px;}
+.fruits:hover{background-position: -64px -64px;}
+.fruits:active{background-position: -128px -64px;}
